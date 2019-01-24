@@ -106,11 +106,11 @@ def tabulate_sections(ensemble)
     end
   end
 
- h_type= {"percussion" => count_percussion,
+return {"percussion" => count_percussion,
             "woodwind" => count_woodwind,
             "brass" => count_brass,
             "strings" => count_strings}
-  puts h_type
+
 end
 tabulate_sections(ensemble)
 #-------------------------------------------------------------------------------------------#
